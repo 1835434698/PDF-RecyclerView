@@ -1,0 +1,3 @@
+rootProject.name='PDF RecyclerView'
+include ':app'
+include ':pdfRecyclerView'
