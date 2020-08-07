@@ -6,7 +6,6 @@
         android:requestLegacyExternalStorage="true"
         android:label="@string/app_name">
 
-        <activity android:name="com.tangzy.pdfrecyclerview.RecycleViewActivity"/>
-    </application>
+      </application>
 
 </manifest>

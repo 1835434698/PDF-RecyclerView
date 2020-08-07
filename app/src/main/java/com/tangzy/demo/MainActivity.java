@@ -9,8 +9,6 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.tangzy.pdfrecyclerview.RecycleViewActivity;
-
 import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Intent intent = new Intent(this, RecycleViewActivity.class);
             String path = Environment.getExternalStorageDirectory().toString();
-            path = path + "/download/项目管理知识体系指南 中文 第六版.pdf";
+            path = path + "/Allinmd/download/项目管理知识体系指南 中文 第六版.pdf";
             File file = new File(path);
             if (!file.exists()) {
                 Log.e("", "文件不存在");
